@@ -4,8 +4,8 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta name="theme-color" content="#0b0b12" />
-	<title>Lorenovv — веб-разработчик · лендинги под ключ</title>
-	<meta name="description" content="Lorenovv — веб-разработчик. Создаю адаптивные лендинги и сайты под ключ на HTML, CSS, JavaScript." />
+	<title>Lorenovv — веб-разработчик · сайты, Telegram-боты и Mini Apps</title>
+	<meta name="description" content="Lorenovv — разработчик. Создаю продающие лендинги, Telegram-ботов и Mini Apps с AI. HTML, CSS, JavaScript, Python (FastAPI), React, TypeScript." />
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 	<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
@@ -23,11 +23,16 @@
 		<symbol id="i-send" viewBox="0 0 24 24"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></symbol>
 		<symbol id="i-mail" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="3 6 12 13 21 6"/></symbol>
 		<symbol id="i-arrow" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></symbol>
+		<symbol id="i-bot" viewBox="0 0 24 24"><rect x="4" y="8" width="16" height="11" rx="3"/><line x1="12" y1="4" x2="12" y2="8"/><circle cx="12" cy="3.2" r="1.3"/><circle cx="9.5" cy="13.5" r="1.1"/><circle cx="14.5" cy="13.5" r="1.1"/></symbol>
+		<symbol id="i-app" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="4"/><rect x="7" y="7" width="3.6" height="3.6" rx="1"/><rect x="13.4" y="7" width="3.6" height="3.6" rx="1"/><rect x="7" y="13.4" width="3.6" height="3.6" rx="1"/><rect x="13.4" y="13.4" width="3.6" height="3.6" rx="1"/></symbol>
+		<symbol id="i-mic" viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M6 11a6 6 0 0 0 12 0"/><line x1="12" y1="17" x2="12" y2="21"/><line x1="9" y1="21" x2="15" y2="21"/></symbol>
+		<symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><line x1="3" y1="12" x2="21" y2="12"/><path d="M12 3c2.5 2.5 3.8 5.7 3.8 9s-1.3 6.5-3.8 9c-2.5-2.5-3.8-5.7-3.8-9S9.5 5.5 12 3z"/></symbol>
 	</svg>
 
 	<header class="nav">
 		<a class="nav__logo" href="#top"><span class="logo__mark">L</span> <span>Lorenovv</span></a>
 		<nav class="nav__links">
+			<a href="#featured">Gloam AI</a>
 			<a href="#works">Работы</a>
 			<a href="#services">Услуги</a>
 			<a href="#about">Обо мне</a>
@@ -40,26 +45,69 @@
 		<!-- HERO -->
 		<section class="hero">
 			<div class="glow"></div>
-			<p class="eyebrow reveal">— веб-разработчик</p>
-			<h1 class="hero__title reveal">Создаю <span class="grad">лендинги</span>,<br />которые продают.</h1>
-			<p class="hero__lead reveal">Адаптивная вёрстка, чистый код, современный дизайн и анимации. От идеи до живого сайта на хостинге — за 1–2 дня.</p>
+			<p class="eyebrow reveal">— веб- и telegram-разработчик</p>
+			<h1 class="hero__title reveal">Сайты, Telegram-боты<br />и <span class="grad">Mini Apps</span>.</h1>
+			<p class="hero__lead reveal">Делаю продающие лендинги, чат-ботов и полноценные Telegram-приложения с AI. От идеи до деплоя — чисто, быстро и красиво.</p>
 			<div class="hero__cta reveal">
-				<a class="btn" href="#works">Смотреть работы</a>
-				<a class="btn btn--ghost" href="#contact">Связаться</a>
+				<a class="btn" href="#featured">Главный проект</a>
+				<a class="btn btn--ghost" href="#works">Другие работы</a>
 			</div>
 			<div class="chips reveal">
-				<span class="chip"><svg class="ic"><use href="#i-bolt"/></svg> Лендинги под ключ</span>
-				<span class="chip"><svg class="ic"><use href="#i-mobile"/></svg> Адаптив 100%</span>
-				<span class="chip"><svg class="ic"><use href="#i-spark"/></svg> Анимации и интерактив</span>
-				<span class="chip"><svg class="ic"><use href="#i-clock"/></svg> Срок 1–2 дня</span>
+				<span class="chip"><svg class="ic"><use href="#i-monitor"/></svg> Сайты и лендинги</span>
+				<span class="chip"><svg class="ic"><use href="#i-bot"/></svg> Telegram-боты</span>
+				<span class="chip"><svg class="ic"><use href="#i-app"/></svg> Telegram Mini Apps</span>
+				<span class="chip"><svg class="ic"><use href="#i-spark"/></svg> AI-интеграции</span>
+			</div>
+		</section>
+
+		<!-- FEATURED: GLOAM AI -->
+		<section class="featured" id="featured">
+			<div class="featured__card reveal">
+				<div class="glow glow--f"></div>
+				<div class="featured__txt">
+					<span class="featured__badge"><svg class="ic"><use href="#i-spark"/></svg> Главный проект</span>
+					<h2 class="featured__title">Gloam AI</h2>
+					<p class="featured__sub">Telegram Mini App · AI-ассистент</p>
+					<p class="featured__desc">Полноценное Telegram-приложение с AI-чатом: несколько моделей с авто-переключением и fallback, голосовой ввод и фото, веб-поиск в реальном времени и подписки PRO. Бэкенд — FastAPI на Vercel, фронтенд — React + TypeScript, база — MongoDB.</p>
+					<div class="chips chips--left">
+						<span class="chip"><svg class="ic"><use href="#i-spark"/></svg> AI-чат на нескольких моделях</span>
+						<span class="chip"><svg class="ic"><use href="#i-mic"/></svg> Голос и фото</span>
+						<span class="chip"><svg class="ic"><use href="#i-globe"/></svg> Веб-поиск</span>
+						<span class="chip"><svg class="ic"><use href="#i-app"/></svg> Mini App в Telegram</span>
+					</div>
+					<div class="tags tags--lg">
+						<span>FastAPI</span><span>Python</span><span>React</span><span>TypeScript</span><span>MongoDB</span><span>Vercel</span><span>Telegram API</span>
+					</div>
+					<div class="featured__cta">
+						<a class="btn" href="https://gloam.site" target="_blank" rel="noopener">Открыть gloam.site <svg class="ic"><use href="#i-arrow"/></svg></a>
+					</div>
+				</div>
+				<div class="featured__media">
+					<div class="phone">
+						<div class="phone__screen">
+							<div class="phone__top">
+								<span class="phone__ava">G</span>
+								<span class="phone__name">Gloam AI</span>
+								<span class="phone__on"></span>
+							</div>
+							<div class="phone__chat">
+								<div class="msg msg--in">Привет! Я Gloam — твой AI-ассистент в Telegram.</div>
+								<div class="msg msg--out">Накидай контент-план на неделю</div>
+								<div class="msg msg--in">Готово! Вот 7 идей с темами и хуками под твою нишу…</div>
+								<div class="msg msg--in msg--type"><i></i><i></i><i></i></div>
+							</div>
+							<div class="phone__input"><span>Сообщение…</span><span class="phone__send"><svg class="ic"><use href="#i-send"/></svg></span></div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</section>
 
 		<!-- WORKS -->
 		<section class="section" id="works">
 			<div class="section__head reveal">
-				<p class="eyebrow">— работы</p>
-				<h2 class="section__title">Избранные проекты</h2>
+				<p class="eyebrow">— ещё работы</p>
+				<h2 class="section__title">Лендинги и сайты</h2>
 				<p class="section__lead">Живые превью — наведите и нажмите на карточку, чтобы открыть сайт целиком.</p>
 			</div>
 
@@ -112,10 +160,12 @@
 				<h2 class="section__title">Чем могу помочь</h2>
 			</div>
 			<div class="services">
+				<div class="card svc reveal"><span class="svc__ic"><svg class="ic"><use href="#i-bot"/></svg></span><h3>Telegram-боты</h3><p>Чат-боты, авто-уведомления, интеграции с API и приёмом платежей.</p></div>
+				<div class="card svc reveal"><span class="svc__ic"><svg class="ic"><use href="#i-app"/></svg></span><h3>Telegram Mini Apps</h3><p>Полноценные веб-приложения внутри Telegram на React и Web App SDK.</p></div>
 				<div class="card svc reveal"><span class="svc__ic"><svg class="ic"><use href="#i-monitor"/></svg></span><h3>Лендинги под ключ</h3><p>От идеи или макета Figma до готового сайта на хостинге.</p></div>
 				<div class="card svc reveal"><span class="svc__ic"><svg class="ic"><use href="#i-mobile"/></svg></span><h3>Адаптивная вёрстка</h3><p>Идеальное отображение на телефонах, планшетах и во всех браузерах.</p></div>
 				<div class="card svc reveal"><span class="svc__ic"><svg class="ic"><use href="#i-spark"/></svg></span><h3>Анимации и интерактив</h3><p>Плавные эффекты, анимации при скролле, интерактивные блоки.</p></div>
-				<div class="card svc reveal"><span class="svc__ic"><svg class="ic"><use href="#i-deploy"/></svg></span><h3>Деплой и поддержка</h3><p>Публикация на Netlify / GitHub Pages, подключение домена, правки.</p></div>
+				<div class="card svc reveal"><span class="svc__ic"><svg class="ic"><use href="#i-deploy"/></svg></span><h3>Деплой и поддержка</h3><p>Публикация на Vercel / Netlify / GitHub Pages, домен, правки.</p></div>
 			</div>
 		</section>
 
@@ -126,10 +176,10 @@
 				<div class="about__txt">
 					<p class="eyebrow">— обо мне</p>
 					<h2 class="section__title">Привет, я Lorenovv</h2>
-					<p>Веб-разработчик, специализируюсь на лендингах и небольших сайтах. Работаю на HTML, CSS и JavaScript — без громоздких конструкторов, чистым кодом, который быстро грузится и легко правится.</p>
-					<p>Люблю аккуратный дизайн и внимание к деталям. Моя цель — чтобы сайт не просто «был», а решал задачу бизнеса и нравился посетителям.</p>
+					<p>Разработчик сайтов и Telegram-приложений. Верстаю лендинги на HTML, CSS и JavaScript, делаю Telegram-ботов и Mini Apps на Python (FastAPI) и React + TypeScript — с чистым кодом, который быстро грузится и легко правится.</p>
+					<p>Мой главный проект — Gloam AI, AI-ассистент в Telegram с несколькими моделями, голосом, фото и веб-поиском. Люблю доводить продукт до результата, а не просто «сдать задачу».</p>
 					<div class="about__stack">
-						<span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Адаптив</span><span>Figma</span><span>Git</span><span>Netlify</span>
+						<span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>TypeScript</span><span>React</span><span>Python</span><span>FastAPI</span><span>Telegram API</span><span>MongoDB</span><span>Git</span><span>Vercel</span>
 					</div>
 				</div>
 			</div>
@@ -143,9 +193,9 @@
 			</div>
 			<div class="steps">
 				<div class="step reveal"><span class="step__n">1</span><h3>Бриф</h3><p>Обсуждаем задачу, референсы и сроки.</p></div>
-				<div class="step reveal"><span class="step__n">2</span><h3>Демо</h3><p>Собираю лендинг и присылаю живую ссылку.</p></div>
+				<div class="step reveal"><span class="step__n">2</span><h3>Демо</h3><p>Собираю проект и присылаю живую ссылку.</p></div>
 				<div class="step reveal"><span class="step__n">3</span><h3>Правки</h3><p>Вносим правки, доводим до идеала.</p></div>
-				<div class="step reveal"><span class="step__n">4</span><h3>Деплой</h3><p>Публикую сайт и передаю исходники.</p></div>
+				<div class="step reveal"><span class="step__n">4</span><h3>Деплой</h3><p>Публикую проект и передаю исходники.</p></div>
 			</div>
 		</section>
 
@@ -153,7 +203,7 @@
 		<section class="section contact" id="contact">
 			<div class="contact__card reveal">
 				<div class="glow glow--c"></div>
-				<h2 class="contact__title">Давайте сделаем ваш лендинг</h2>
+				<h2 class="contact__title">Давайте сделаем ваш проект</h2>
 				<p class="contact__lead">Напишите — обсудим задачу и сроки. Отвечаю быстро.</p>
 				<div class="contact__btns">
 					<a class="btn" href="https://t.me/OnMyTem4ick" target="_blank" rel="noopener"><svg class="ic"><use href="#i-send"/></svg> Telegram</a>
@@ -164,7 +214,7 @@
 	</main>
 
 	<footer class="foot">
-		<span><span class="logo__mark logo__mark--sm">L</span> Lorenovv · веб-разработчик</span>
+		<span><span class="logo__mark logo__mark--sm">L</span> Lorenovv · веб- и Telegram-разработчик</span>
 		<span>© <span id="year"></span> · Сделано самостоятельно на HTML/CSS/JS</span>
 	</footer>
 
