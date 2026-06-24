@@ -4,16 +4,29 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta name="theme-color" content="#0b0b12" />
-	<title>Артём — веб-разработчик · лендинги под ключ</title>
-	<meta name="description" content="Артём — веб-разработчик. Создаю адаптивные лендинги и сайты под ключ на HTML, CSS, JavaScript." />
+	<title>Lorenovv — веб-разработчик · лендинги под ключ</title>
+	<meta name="description" content="Lorenovv — веб-разработчик. Создаю адаптивные лендинги и сайты под ключ на HTML, CSS, JavaScript." />
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 	<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
 	<link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
+	<!-- SVG icon sprite -->
+	<svg width="0" height="0" class="sprite" aria-hidden="true" focusable="false">
+		<symbol id="i-bolt" viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></symbol>
+		<symbol id="i-mobile" viewBox="0 0 24 24"><rect x="5" y="2" width="14" height="20" rx="2.5"/><line x1="12" y1="18" x2="12.01" y2="18"/></symbol>
+		<symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 2l1.8 6.2L20 10l-6.2 1.8L12 18l-1.8-6.2L4 10l6.2-1.8z"/></symbol>
+		<symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 16 14"/></symbol>
+		<symbol id="i-monitor" viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></symbol>
+		<symbol id="i-deploy" viewBox="0 0 24 24"><polyline points="16 16 12 12 8 16"/><line x1="12" y1="12" x2="12" y2="21"/><path d="M20.4 18.4A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.3"/></symbol>
+		<symbol id="i-send" viewBox="0 0 24 24"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></symbol>
+		<symbol id="i-mail" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="3 6 12 13 21 6"/></symbol>
+		<symbol id="i-arrow" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></symbol>
+	</svg>
+
 	<header class="nav">
-		<a class="nav__logo" href="#top"><span class="logo__mark">А</span> <span>Артём</span></a>
+		<a class="nav__logo" href="#top"><span class="logo__mark">L</span> <span>Lorenovv</span></a>
 		<nav class="nav__links">
 			<a href="#works">Работы</a>
 			<a href="#services">Услуги</a>
@@ -35,10 +48,10 @@
 				<a class="btn btn--ghost" href="#contact">Связаться</a>
 			</div>
 			<div class="chips reveal">
-				<span class="chip">⚡ Лендинги под ключ</span>
-				<span class="chip">📱 Адаптив 100%</span>
-				<span class="chip">✨ Анимации и интерактив</span>
-				<span class="chip">🚀 Срок 1–2 дня</span>
+				<span class="chip"><svg class="ic"><use href="#i-bolt"/></svg> Лендинги под ключ</span>
+				<span class="chip"><svg class="ic"><use href="#i-mobile"/></svg> Адаптив 100%</span>
+				<span class="chip"><svg class="ic"><use href="#i-spark"/></svg> Анимации и интерактив</span>
+				<span class="chip"><svg class="ic"><use href="#i-clock"/></svg> Срок 1–2 дня</span>
 			</div>
 		</section>
 
@@ -47,23 +60,10 @@
 			<div class="section__head reveal">
 				<p class="eyebrow">— работы</p>
 				<h2 class="section__title">Избранные проекты</h2>
-				<p class="section__lead">Несколько лендингов в разных нишах и стилях — все свёрстаны вручную и адаптивны.</p>
+				<p class="section__lead">Лендинги в разных нишах и стилях — все свёрстаны вручную и адаптивны.</p>
 			</div>
 
 			<div class="works">
-				<a class="work reveal" data-theme="replock" href="#" target="_blank" rel="noopener">
-					<div class="pv">
-						<div class="pv__bar"><i></i><i></i><i></i></div>
-						<div class="pv__body"><span class="pv__eyebrow"></span><span class="pv__h"></span><span class="pv__h pv__h--2"></span><span class="pv__btn"></span></div>
-					</div>
-					<div class="work__info">
-						<div class="work__head"><h3>RepLock</h3><span class="work__cat">App landing</span></div>
-						<p>Лендинг мобильного приложения: отжимания, чтобы разблокировать приложения. Тёмная неоновая тема, анимации, FAQ-аккордеон.</p>
-						<div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Анимации</span></div>
-						<span class="work__link">Открыть демо →</span>
-					</div>
-				</a>
-
 				<a class="work reveal" data-theme="coffee" href="#" target="_blank" rel="noopener">
 					<div class="pv">
 						<div class="pv__bar"><i></i><i></i><i></i></div>
@@ -73,7 +73,7 @@
 						<div class="work__head"><h3>Кофейня «Утро»</h3><span class="work__cat">HoReCa</span></div>
 						<p>Лендинг городской кофейни: меню, история обжарки, галерея зала, отзывы и бронирование. Тёплая уютная палитра.</p>
 						<div class="tags"><span>HTML</span><span>CSS</span><span>Адаптив</span></div>
-						<span class="work__link">Открыть демо →</span>
+						<span class="work__link">Открыть демо <svg class="ic"><use href="#i-arrow"/></svg></span>
 					</div>
 				</a>
 
@@ -86,7 +86,7 @@
 						<div class="work__head"><h3>Фитнес-тренер</h3><span class="work__cat">Услуги</span></div>
 						<p>Лендинг персонального онлайн-тренера: блок «до/после», программы и тарифы, FAQ и форма записи. Тёмная тема с неоном.</p>
 						<div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
-						<span class="work__link">Открыть демо →</span>
+						<span class="work__link">Открыть демо <svg class="ic"><use href="#i-arrow"/></svg></span>
 					</div>
 				</a>
 
@@ -99,20 +99,7 @@
 						<div class="work__head"><h3>«Капитал»</h3><span class="work__cat">Fintech</span></div>
 						<p>Лендинг инвестиционного приложения: возможности, шаги онбординга, тарифы. Строгий тёмный fintech-стиль с акцентом.</p>
 						<div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
-						<span class="work__link">Открыть демо →</span>
-					</div>
-				</a>
-
-				<a class="work reveal" data-theme="ledger" href="#" target="_blank" rel="noopener">
-					<div class="pv">
-						<div class="pv__bar"><i></i><i></i><i></i></div>
-						<div class="pv__body"><span class="pv__eyebrow"></span><span class="pv__h"></span><span class="pv__h pv__h--2"></span><span class="pv__btn"></span></div>
-					</div>
-					<div class="work__info">
-						<div class="work__head"><h3>Ameribel Ledger</h3><span class="work__cat">Multi-page · EN</span></div>
-						<p>Многостраничный сайт бухгалтерских услуг на английском: услуги, о компании, контакты и формы. Классическая премиальная палитра.</p>
-						<div class="tags"><span>HTML</span><span>CSS</span><span>Multi-page</span></div>
-						<span class="work__link">Открыть демо →</span>
+						<span class="work__link">Открыть демо <svg class="ic"><use href="#i-arrow"/></svg></span>
 					</div>
 				</a>
 			</div>
@@ -125,20 +112,20 @@
 				<h2 class="section__title">Чем могу помочь</h2>
 			</div>
 			<div class="services">
-				<div class="card svc reveal"><span class="svc__ic">🖥️</span><h3>Лендинги под ключ</h3><p>От идеи или макета Figma до готового сайта на хостинге.</p></div>
-				<div class="card svc reveal"><span class="svc__ic">📱</span><h3>Адаптивная вёрстка</h3><p>Идеальное отображение на телефонах, планшетах и во всех браузерах.</p></div>
-				<div class="card svc reveal"><span class="svc__ic">✨</span><h3>Анимации и интерактив</h3><p>Плавные эффекты, анимации при скролле, интерактивные блоки.</p></div>
-				<div class="card svc reveal"><span class="svc__ic">🚀</span><h3>Деплой и поддержка</h3><p>Публикация на Netlify / GitHub Pages, подключение домена, правки.</p></div>
+				<div class="card svc reveal"><span class="svc__ic"><svg class="ic"><use href="#i-monitor"/></svg></span><h3>Лендинги под ключ</h3><p>От идеи или макета Figma до готового сайта на хостинге.</p></div>
+				<div class="card svc reveal"><span class="svc__ic"><svg class="ic"><use href="#i-mobile"/></svg></span><h3>Адаптивная вёрстка</h3><p>Идеальное отображение на телефонах, планшетах и во всех браузерах.</p></div>
+				<div class="card svc reveal"><span class="svc__ic"><svg class="ic"><use href="#i-spark"/></svg></span><h3>Анимации и интерактив</h3><p>Плавные эффекты, анимации при скролле, интерактивные блоки.</p></div>
+				<div class="card svc reveal"><span class="svc__ic"><svg class="ic"><use href="#i-deploy"/></svg></span><h3>Деплой и поддержка</h3><p>Публикация на Netlify / GitHub Pages, подключение домена, правки.</p></div>
 			</div>
 		</section>
 
 		<!-- ABOUT -->
 		<section class="section about" id="about">
 			<div class="about__inner card reveal">
-				<div class="about__logo"><span class="logo__mark logo__mark--lg">А</span></div>
+				<div class="about__logo"><span class="logo__mark logo__mark--lg">L</span></div>
 				<div class="about__txt">
 					<p class="eyebrow">— обо мне</p>
-					<h2 class="section__title">Привет, я Артём</h2>
+					<h2 class="section__title">Привет, я Lorenovv</h2>
 					<p>Веб-разработчик, специализируюсь на лендингах и небольших сайтах. Работаю на HTML, CSS и JavaScript — без громоздких конструкторов, чистым кодом, который быстро грузится и легко правится.</p>
 					<p>Люблю аккуратный дизайн и внимание к деталям. Моя цель — чтобы сайт не просто «был», а решал задачу бизнеса и нравился посетителям.</p>
 					<div class="about__stack">
@@ -169,16 +156,15 @@
 				<h2 class="contact__title">Давайте сделаем ваш лендинг</h2>
 				<p class="contact__lead">Напишите — обсудим задачу и сроки. Отвечаю быстро.</p>
 				<div class="contact__btns">
-					<a class="btn" href="https://t.me/your_username" target="_blank" rel="noopener">✈️ Telegram</a>
-					<a class="btn btn--ghost" href="mailto:your@email.com">✉️ Email</a>
-					<a class="btn btn--ghost" href="https://wa.me/70000000000" target="_blank" rel="noopener">🟢 WhatsApp</a>
+					<a class="btn" href="https://t.me/OnMyTem4ick" target="_blank" rel="noopener"><svg class="ic"><use href="#i-send"/></svg> Telegram</a>
+					<a class="btn btn--ghost" href="mailto:OnMyTem4ick@yandex.ru"><svg class="ic"><use href="#i-mail"/></svg> Email</a>
 				</div>
 			</div>
 		</section>
 	</main>
 
 	<footer class="foot">
-		<span><span class="logo__mark logo__mark--sm">А</span> Артём · веб-разработчик</span>
+		<span><span class="logo__mark logo__mark--sm">L</span> Lorenovv · веб-разработчик</span>
 		<span>© <span id="year"></span> · Сделано самостоятельно на HTML/CSS/JS</span>
 	</footer>
 
