@@ -1,2 +1,11 @@
-# portfolio
-Personal portfolio website — web developer (landing pages)
+# Portfolio
+
+Личный сайт-визитка веб-разработчика (лендинги под ключ). Свёрстан вручную на HTML, CSS и JavaScript, без фреймворков.
+
+## Структура
+- `index.html` — разметка (hero, работы, услуги, обо мне, процесс, контакты)
+- `css/style.css` — стили
+- `js/script.js` — анимации при скролле
+
+## Деплой
+Статичный сайт — публикуется на Netlify / GitHub Pages.
